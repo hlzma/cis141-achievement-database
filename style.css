@@ -1,0 +1,136 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    margin-top: 100px;
+}
+
+a:link, a:visited, a:active {
+    color: #333333;
+    text-decoration: none;
+}
+
+header p {
+    width: 50%;
+    text-align: center;
+    margin: auto auto auto auto;
+    display: block;
+    text-transform: uppercase;
+    font-size: 3em;
+    letter-spacing: 0.3em;
+}
+
+nav {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+nav ul.menu {
+    list-style-type: none;
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+}
+
+nav li.menuitem {
+    display: inline-block;
+    padding: 10px;
+    margin: 0px 1px 0px 1px;
+}
+
+nav li.menuitem:hover {
+    background-color: #CCCCCC;
+}
+
+nav li.erasedata {
+    display: inline-block;
+    padding: 10px;
+    margin: 0px 1px 0px 1px;
+}
+
+nav li.erasedata:hover {
+    background-color: red;
+}
+
+footer p {
+    text-align: center;
+    margin: 75px auto 15px auto;
+    display: block;
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+    padding: 10px 0px 10px 0px;
+    border-top: 1px solid #333333;
+    width: 50%
+}
+
+div.container {
+    width: 50%;
+    margin: auto auto auto auto;
+}
+
+input, select {
+    border: 1px solid #333333;
+}
+
+div.forminput {
+    margin-bottom: 10px;
+}
+
+span.gamesubmit, span.gamelist {
+    color: #009900;
+}
+
+div.gameslistcontainer {
+    text-align: center;
+}
+
+div.gametitle, div.gamecategory {
+    width: 40%;
+    display: inline-block;
+    font-weight: bold;
+    border-bottom: 1px solid #333333;
+    text-align: left;
+    padding: 5px 0px 5px 0px;
+    margin: 5px 0px 5px 0px;
+}
+
+div.gamelisttitle, div.gamelistcat {
+    width: 40%;
+    display: inline-block;
+    text-align: left;
+}
+
+div.achlistcontainer {
+    text-align: center;
+}
+
+div.achtitle, div.achach {
+    width: 30%;
+    display: inline-block;
+    font-weight: bold;
+    border-bottom: 1px solid #333333;
+    text-align: left;
+    padding: 5px 0px 5px 0px;
+    margin: 5px 0px 5px 0px;
+}
+
+div.achcategory, div.achpoints {
+    width: 10%;
+    display: inline-block;
+    font-weight: bold;
+    border-bottom: 1px solid #333333;
+    text-align: left;
+    padding: 5px 0px 5px 0px;
+    margin: 5px 0px 5px 0px;
+}
+
+div.achlisttitle, div.achlistach {
+    width: 30%;
+    display: inline-block;
+    text-align: left;
+}
+
+div.achlistcat, div.achlistpoints {
+    width: 10%;
+    display: inline-block;
+    text-align: left;
+}
